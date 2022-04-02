@@ -1,11 +1,6 @@
 import os
 import sys
 import time
-import signal
-
-def signal_handler(sig, frame):
-    print('You pressed Ctrl+C!')
-    sys.exit(0)
 
 time_exec = int(sys.argv[1])
 
